@@ -13,4 +13,7 @@ gulp.task('css:watch', function () {
   gulp.watch(['scss/**/*.scss', 'js/**/*.scss', 'scss/**/*.css', 'js/**/*.css'], ['css']);
 });
 
+
+gulp.task('build', ['css']);
+
 gulp.task('default', ['css', 'css:watch']);
