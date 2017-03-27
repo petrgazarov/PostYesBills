@@ -1,2 +1,2 @@
 # Procfile
-web: npm run dev
+web: npm i --dev && npm run dev
