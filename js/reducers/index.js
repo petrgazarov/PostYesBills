@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 import auth from './auth';
-import BillsReducer from './BillsReducer';
+import BillsReducer from './billsReducer';
 
 export default combineReducers({
   auth,
