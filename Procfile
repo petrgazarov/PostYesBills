@@ -1,2 +1,2 @@
 # Procfile
-web: npm i --dev && webpack && node index.js
+web: webpack && node index.js
